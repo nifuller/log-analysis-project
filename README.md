@@ -2,7 +2,7 @@
 
 ## 📈 Progress
 - [x] Downloaded and explored NASA HTTP dataset
-- [ ] Built log parser in Python
+- [x] Built log parser in Python
 - [ ] Load data into SQLite
 - [ ] Write security focused SQL queries
 - [ ] Build visualizations
