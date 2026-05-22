@@ -37,6 +37,7 @@ def open_txt():
             
         # print(line_list)
     df = pd.DataFrame(line_list)
-    df.to_csv("access_logs.csv")
+    df = df.reset_index(drop=True)
+    df.to_csv("access_logs.csv", index=False)
 
 open_txt()

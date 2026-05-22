@@ -63,3 +63,5 @@ credentials.json
 .cache/
 tmp/
 temp/
+data/
+notebooks/logs_database.db
