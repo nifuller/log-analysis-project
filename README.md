@@ -5,5 +5,5 @@
 - [x] Built log parser in Python
 - [x] Load data into SQLite
 - [x] Write security focused SQL queries
-- [ ] Build visualizations
+- [x] Build visualizations
 - [ ] Write up findings
