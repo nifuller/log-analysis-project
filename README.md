@@ -9,6 +9,7 @@
 - [ ] Write up findings
 
 # Project Overview
+Analyzed over 1.8 million HTTP requests from NASA's Kennedy Space Center web server using the July 1995 dataset. The raw dataset required a custom regex parser to extract structured fields from an unformatted log file before any analysis could begin with The main tools used in this project were Python, Pandas, SQLite, and Matplotlib with the goal of identifying anomalous traffic patterns and investigating potential security threats. Specifically looking for any unusual overnight activity spikes, error rates, and suspicious endpoint access. Each anomalous traffic pattern was thoroughly investigated using the full analyst workflow of detection, investigation, and false positive reduction.
 
 # Data Processing
 
